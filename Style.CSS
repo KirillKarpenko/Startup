@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url("D:/User/Images/рабочий стол.png");
+}
+.container {
+    color: white;
+    height: 100vh;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
